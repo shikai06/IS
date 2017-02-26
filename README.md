@@ -1,5 +1,6 @@
 # IS - [ASP.NET](https://www.asp.net)
-Simple Information System as a introduction to [ASP.NET](https://www.asp.net) Web Forms and our prelim exam project.
+Simple information system we did as a introduction to [ASP.NET](https://www.asp.net) Web Forms.
+Will continue this as our exam project.
 
 ## Design
 I used [Bootswatch](https://bootswatch.com/) 'SOLAR' theme for my overall design.

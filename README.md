@@ -10,7 +10,7 @@ IDE|Server
  Visual Studio 2013   | SQL Server 2014
 
 
-## Development..
+## Development
 - still in progress..
 - design not yet finished
 - it still the adding function we did in the class

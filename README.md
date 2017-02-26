@@ -13,7 +13,7 @@ IDE|Server
 ## Development
 - still in progress..
 - design not yet finished
-- it still the adding function we did in the class
+- it still has the adding function we did in the class
 - adding more features
 
 

@@ -4,9 +4,11 @@ Simple Information System as a introduction to [ASP.NET](https://www.asp.net) We
 ## Design
 I used [Bootswatch](https://bootswatch.com/) 'SOLAR' theme for my overall design.
 
+##
 IDE|Server
 --------------------- | ----------------------------
  Visual Studio 2013   | SQL Server 2014
+
 
 ## Development..
 - still in progress..

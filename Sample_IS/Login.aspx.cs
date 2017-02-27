@@ -13,5 +13,10 @@ namespace Sample_IS
         {
 
         }
+
+        protected void Unnamed3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx");
+        }
     }
 }

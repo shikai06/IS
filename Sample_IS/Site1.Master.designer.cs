@@ -7,18 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sample_IS.Account {
+namespace Sample_IS {
     
     
-    public partial class RegisterExternalLogin {
+    public partial class Site1 {
         
         /// <summary>
-        /// userName control.
+        /// MainContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox userName;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
     }
 }

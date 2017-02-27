@@ -13,18 +13,18 @@ namespace Sample_IS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            FillData();
+            
         }
 
         protected void Submit_Click(object sender, EventArgs e)
         {
-                string query = String.Format("INSERT INTO student (FirstName, LastName, Address, Gender) VALUES ('{0}', '{1}', '{2}', '{3}')",
+                string query = String.Format("INSERT INTO sender (fname, lname, number, address) VALUES ('{0}', '{1}', '{2}', '{3}')",
                                                                 tbFirstName.Text,
                                                                 tbLastName.Text,
-                                                                tbAddress.Text,
-                                                                ddGender.Text);
+                                                                tbNumber.Text,
+                                                                tbAddress.Text);
 
-                using (SqlConnection con = new SqlConnection(@"Server=.\SQLEXPRESS;Database=IS;Integrated Security=SSPI"))
+                using (SqlConnection con = new SqlConnection(@"Server=.\SQLEXPRESS;Database=SIS;Integrated Security=SSPI"))
             {
                 using (SqlCommand com = new SqlCommand(query, con))
                 {
@@ -44,43 +44,11 @@ namespace Sample_IS
                     }
                 }
             }
-
+                pnlFormFields.Visible = false;
+                pnlThankYouMessage.Visible = true;
 
         }
 
-        private void FillData()
-        {
-            string query = String.Format(@"SELECT [FirstName]
-      ,[LastName]
-      ,[Address]
-      ,[Gender]
-  FROM [dbo].[student]");
-
-            using (SqlConnection con = new SqlConnection(@"Server=.\SQLEXPRESS;Database=IS;Integrated Security=SSPI"))
-            {
-                using (SqlCommand com = new SqlCommand(query, con))
-                {
-                    try
-                    {
-                        con.Open();
-                        SqlDataAdapter adapt = new SqlDataAdapter(com);
-                        DataSet1 ds = new DataSet1();
-                        adapt.Fill(ds,"DataTable1");
-                        GridView1.DataSource = ds.Tables[0];
-                        GridView1.DataBind();
-                    }
-                    catch (Exception)
-                    {
-
-                        throw;
-                    }
-                    finally
-                    {
-                        con.Close();
-                    }
-                }
-            }
-        }
 
     }
 }

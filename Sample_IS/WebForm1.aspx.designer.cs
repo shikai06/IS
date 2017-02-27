@@ -13,22 +13,13 @@ namespace Sample_IS {
     public partial class WebForm1 {
         
         /// <summary>
-        /// form1 control.
+        /// pnlFormFields control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// FirstName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FirstName;
+        protected global::System.Web.UI.WebControls.Panel pnlFormFields;
         
         /// <summary>
         /// tbFirstName control.
@@ -40,15 +31,6 @@ namespace Sample_IS {
         protected global::System.Web.UI.WebControls.TextBox tbFirstName;
         
         /// <summary>
-        /// LastName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LastName;
-        
-        /// <summary>
         /// tbLastName control.
         /// </summary>
         /// <remarks>
@@ -58,13 +40,13 @@ namespace Sample_IS {
         protected global::System.Web.UI.WebControls.TextBox tbLastName;
         
         /// <summary>
-        /// Address control.
+        /// tbNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Address;
+        protected global::System.Web.UI.WebControls.TextBox tbNumber;
         
         /// <summary>
         /// tbAddress control.
@@ -76,24 +58,6 @@ namespace Sample_IS {
         protected global::System.Web.UI.WebControls.TextBox tbAddress;
         
         /// <summary>
-        /// Gender control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Gender;
-        
-        /// <summary>
-        /// ddGender control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddGender;
-        
-        /// <summary>
         /// Submit control.
         /// </summary>
         /// <remarks>
@@ -103,12 +67,12 @@ namespace Sample_IS {
         protected global::System.Web.UI.WebControls.Button Submit;
         
         /// <summary>
-        /// GridView1 control.
+        /// pnlThankYouMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.Panel pnlThankYouMessage;
     }
 }
